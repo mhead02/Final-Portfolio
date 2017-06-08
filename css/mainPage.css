@@ -4,13 +4,13 @@ body{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	font-family: Comfortaa;
-	max-width: 100%; /*1295px*/ 
+	max-width: 100%; /*1295px*/
 
 }
 
 header img{
-	width: 70px; 
-	/* margin-left:1430px; */ 
+	width: 70px;
+	/* margin-left:1430px; */
 	margin-top: 15px;
 	margin-left: 0.77220077%; /* 10px; */
 }
@@ -59,14 +59,13 @@ footer{
 }
 
 .sideNav{
-margin-top: 20px;
-margin-left: 10px;
-height:350px;
-width: 250px; /* 0 width - change this with JavaScript */
-position: fixed; /* Stay in place */
-z-index: 1;
-background-color: black;
-
+	margin-top: 100px;
+	margin-left: 10px;
+	height:350px;
+	width: 250px; /* 0 width - change this with JavaScript */
+	background-color: black;
+	display: none;
+	position: fixed;
 }
 .sideNav a:hover, .navBar a:focus{
 	color: blue;
@@ -77,10 +76,8 @@ background-color: black;
 	display:block;
 	padding-top: 40px;
 	font-size: 20px;
-
 }
 li a{
 	color:white;
 	text-decoration: none;
 }
-

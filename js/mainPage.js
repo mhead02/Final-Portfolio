@@ -4,10 +4,10 @@ $( document ).ready(function() {
 	$("nav").fadeToggle("slow");
 }); */
 
-$("#controlNav").click(openNav);
+  $("#controlNav").click(openNav);
 
-function openNav() {
-    $("sideNav").style.width = "250px";
-}
+  function openNav() {
+      $(".sideNav").toggle("show");
+  }
 
 });
