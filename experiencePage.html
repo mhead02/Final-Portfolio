@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Experience</title>
+	<link rel="stylesheet" type="text/css" href="css/experiencePage.css">
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+</head>
+<body>
+<nav class="sideNav">
+	<ul>
+		<li class="navBar"><strong><a href="mainPage.html">Home</a></strong></li>
+		<li class="navBar"><strong><a href="aboutMe_page.html">About Me</a></strong></li>
+		<li class="navBar"><a href="experiencePage.html">Experience</a></li>
+		<li class="navBar"><a href="contactPage.html">Contact Me</a></li>
+	</ul>
+</nav>
+<header>
+	<span>
+		<img id="controlNav" src="images/M_logo.jpg">
+	</span>
+	<span id="experience"> experience </span>
+</header>
+<div id="workPic">
+	<img id="work" src="images/marketingIndust.png">
+</div>
+<div class= "animated bounceInLeft" id="ds">
+	<h3>Developing<br>Strategies</h3>
+</div>
+<div class="animated bounceInDown" id="ita">
+	<h3><span id="ident">Identifying</span><br>Target Audience</h3>
+</div>
+<div class="animated bounceInUp" id="cv">
+	<h3>Communicating Value</h3>
+</div>
+<div class="animated bounceIn" id="ep_ds">
+	<h3><span id="execP">Executing Plans</span> <br>and Delivering Results</h3>
+</div>
+<div class="animated bounceInRight" id="cltg">
+	<h3><span id="create">Creating</span><br> Long-Term Growth</h3>
+</div>
+<div class=" animated bounceInDown" id="bsb">
+	<h3><span id="build">Building a</span><br> Strong Brand</h3>
+</div>
+<section id="workBackground">
+</section>
+<section id="workExperience">
+	<div id="ise">
+		<h1>Impression Sports & Entertainment</h1>
+		<h3>Director of Client Services</h3>
+		<ul class="post">
+			<li>Assist and manage in all facets of the company’s business including sales prospecting, sales support, evaluation, client and vendor management (i.e. managing valuation firms), creating decks and more.</li>
+			<li>Managed client relationships, process, transfer of information, and more for clients including USC Athletics, Fox Sports, SeaWorld, Chip Ganassi Racing, Orlando City Soccer Club, and more.</li>
+			<li> Created overview and proposal marketing decks through Adobe Photoshop and InDesign</li>
+		</ul>
+	</div>
+	<div id="line"></div>
+	<div id="tma">
+		<h1>The Marketing Arm</h1>
+		<h3>Consulting Specialist</h3>
+		<ul class="post">
+			<li>Conducted in-depth market research, managed evaluation process, strategy and negotiation of client’s sports and entertainment properties as well as knowledge of brand analytics and ROI models.</li>
+			<li> Planned, managed, executed and tracked AT&T sponsorship partnerships (Ohio State, Steelers, Orioles, Purdue University, and more.)</li>
+			<li>Increased TMA involvement with AT&T Wi-Fi business through creative and innovative deployment of resources.</li>
+		</ul>
+	</div>
+	<div id="line1"></div>
+	<div id="ga">
+		<h1>General Assembly</h1>
+		<h3>Front End Web Development</h3>
+		<ul class="post">
+			<li>Skills/Tools:HTML5, CSS3, JavaScript, jQuery, GitHub, and Sublime.</li>
+			<li>Production Standard: Build a fully responsive, interactive website that stands apart from the usual templates.</li> 
+			<li>The Big Picture: Understand how a skillful mix of programming and layout powers the web we see and how teams collaborate to create it.</li>
+		</ul>
+	</div>
+</section>
+	<div id="resumeView"></div>
+	<h2 class="post" id= "resumeLink"><a href="MH_Resume.pdf" download="resume">Click here to view my full resume!</h2>
+	<br>
+	<br>
+	<div id= "downArrow">
+		<img class="post" src="images/downArrow.png">
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div id="skillsHeader">Skills</div>
+	<footer>
+		<div id="skills"> 
+			<div id="circles">
+				<div class="post" id="html"></div>
+				<div class="post" id="css"></div>
+				<div class="post" id="photoS"></div>
+				<div class="post" id="inD"></div>
+				<div class="post" id="excel"></div>
+				<div class="post" id="sublime"></div>
+				<div class="post" id="powerP"></div>
+				<div class="post" id="conxport"></div>
+				<div class="post" id="myEmma"></div>
+			</div>
+			<ul>
+				<li><img class="post" id="html1" src="images/html5Logo.png" alt="HTML5 logo"></li>
+				<li><img class="post" id="css1" src="images/cssLogo.png" alt="CSS logo"></li>
+				<li><img class="post" id="photoS1" src="images/photoshopLogo.png" alt="Photoshop logo"></li>
+				<li><img class="post" id="inD1" src="images/indesignLogo.png" alt="InDesign logo"></li>
+				<li><img class="post" id="excel1" src="images/excelLogo.png" alt="Excel logo"></li>
+				<li><img class="post" id="powerP1" src="images/powerpointLogo.png" alt="Powerpoint logo"></li>
+				<li><img class="post" id="sublime1" src="images/sublimeLogo.png" alt="Sublime logo"></li>
+				<li><img class="post" id="conxport1" src="images/conxportLogo.png" alt="Conxport logo"></li>
+				<li><img class="post" id="myEmma1" src="images/emma.png" alt="Emma logo"></li>
+			</ul>
+		</div>
+	</footer>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+<script src="assets/viewportchecker.js"></script> 
+<script type="text/javascript">
+jQuery(document).ready(function() {
+	jQuery('.post').addClass("hidden").viewportChecker({
+	    classToAdd: 'visible animated fadeIn', // Class to add to the elements when they are visible
+	    offset: 100    
+	   });   
+});            
+</script>
+</body>
+	<script src="js/experiencePage.js"></script>
+</html>

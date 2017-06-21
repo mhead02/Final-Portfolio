@@ -1,0 +1,60 @@
+body{
+	background-image: url("../images/whitebrick.jpg");
+	font-family: Comfortaa;
+}
+
+.sideNav{
+	margin-top: 100px;
+	margin-left: 10px;
+	height:350px;
+	width: 250px; /* 0 width - change this with JavaScript */
+	background-color: black;
+	display: none;
+	position: fixed;
+	z-index:10;
+}
+.sideNav a:hover, .navBar a:focus{
+	color: blue;
+}
+
+.navBar{
+	display:block;
+	padding-top: 40px;
+	font-size: 20px;
+}
+li a{
+	color:white;
+	text-decoration: none;
+}
+
+header img{
+	width: 70px; 
+	/* margin-left:1430px; */ 
+	margin-top: 15px;
+	margin-left: 0.77220077%; /* 10px; */
+}
+#centerPiece{
+	position: relative;
+	top:150px;
+	height:300px;
+	padding-top: 20px;
+	background-color: rgba(206, 221, 227, .8);
+	border-radius: 5px;
+	text-align: center;
+	color:rgba(34, 76, 180, 1);
+	margin: auto;
+}
+
+#mainText{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 40px;
+	padding-left: 40px; 
+	background-color: rgba(255, 255, 255, 0.7);
+	margin-top: 70px;
+	margin-left: 530px ;
+	margin-right: 530px;
+}
+h1{
+	font-size: 24px;
+}

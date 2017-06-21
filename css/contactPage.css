@@ -1,0 +1,100 @@
+body{
+	/* background-color: rgba(173, 206, 255, 1); */
+	background-image:url(../images/whitebrick.jpg);
+	background-position: center;
+	font-family: Comfortaa;
+	max-width: 100%; /*1295px*/ 
+}
+.sideNav{
+	margin-top: 100px;
+	margin-left: 10px;
+	height:350px;
+	width: 250px; /* 0 width - change this with JavaScript */
+	background-color: black;
+	display: none;
+	position: fixed;
+	z-index:10;
+}
+.sideNav a:hover, .navBar a:focus{
+	color: blue;
+}
+
+.navBar{
+	display:block;
+	padding-top: 40px;
+	font-size: 20px;
+}
+li a{
+	color:white;
+	text-decoration: none;
+}
+header img{
+	width: 70px; 
+	/* margin-left:1430px; */ 
+	margin-top: 15px;
+	margin-left: 0.77220077%; /* 10px; */
+}
+
+.typingWords{
+	margin-left: 44%; /*670px;*/
+	margin-top: 100px;
+}
+
+ .typingWords h2 {
+  color:rgba(34, 76, 180, 1);
+  font-size: 28px;
+  font-family: Titillium Web;
+  width: 165px;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid white;
+  -webkit-animation: type 3.0s steps(14, end);
+  animation: 
+  	type 3.0s steps(14, end),
+   	blink-caret .75s step-end infinite;
+}
+
+@keyframes type {
+  from {
+    width: 0;
+  }
+}
+@-webkit-keyframes type {
+  from {
+    width: 0;
+  }
+}
+/* The typewriter cursor effect*/
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgba(34, 76, 180, 1); }
+}
+
+label .mdl-textfield__label{
+	color:black;
+	font-weight: 700;
+}
+
+#formBackground{
+	background-color: rgba(206, 221, 227, .8);
+	position: absolute;
+	text-align: center;
+	margin: auto;
+
+}
+#formSubmit{
+	background-color: rgba(255, 255, 255, 0.7);
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 550px;
+	margin-right: 550px;
+	padding:10px 0 10px 0;
+}
+
+button{
+	border-radius: 5px;
+	background-color: rgba(34, 76, 180, 1);
+	color:white;
+	margin-bottom: 10px;
+}

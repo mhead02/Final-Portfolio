@@ -1,0 +1,458 @@
+body{
+	background-image:url(../images/whitebrick.jpg);
+	max-width: 100%;
+	font-family: Comfortaa;
+	background-position: center;
+	overflow-x: hidden;
+}
+header img{
+	width: 70px; 
+	/* margin-left:1430px; */ 
+	margin-top: 15px;
+	margin-left: 0.77220077%; /* 10px; */
+}
+.sideNav{
+	margin-top: 100px;
+	margin-left: 10px;
+	height:350px;
+	width: 250px; /* 0 width - change this with JavaScript */
+	background-color: black;
+	display: none;
+	position: fixed;
+}
+.sideNav a:hover, .navBar a:focus{
+	color: blue;
+}
+
+.navBar{
+	display:block;
+	padding-top: 40px;
+	font-size: 20px;
+}
+li a{
+	color:white;
+	text-decoration: none;
+}
+#experience{
+	font-size: 24px;
+	font-style: italic;
+	font-weight: 400;
+	position: absolute;
+	padding-left: 20px;
+	padding-top: 33px;
+}
+#workPic{
+	margin-top: 70px;
+}
+#work{
+	width:60%;
+	position: absolute;
+	margin: auto;
+	margin-left: 21%; /*320px;*/
+}
+#ds{
+	position: relative;
+	color:white;
+	font-size: 12px;
+	left:26.2%; /*395px;*/
+	top:260px;
+}
+#ita{
+	position: relative;
+	font-size: 12px;
+	color:white;
+	left: 35.5%; /*535px;*/
+	top:10px;
+}
+#ident{
+	position: relative;
+	left: 1.5%; /*20px;*/
+}
+#cv{
+	position: relative;
+	color:white;
+	font-size: 12px;
+	left:45%; /*675px;*/
+	top:230px;
+
+}
+#ep_ds{
+	position: relative;
+	color: white;
+	font-size: 12px;
+	left:55.7%; /*840px;*/
+	bottom: 10px;
+}
+#execP{
+	position: relative;
+	left: 1.5%; /*20px;*/
+}
+#cltg{
+	position: relative;
+	color:white;
+	font-size: 11px;
+	left:66%; /*993px;*/
+	top:90px;
+}
+#create{
+	position: relative;
+	left: 2%; /*30px;*/
+}
+
+#bsb{
+	position: relative;
+	color:white;
+	font-size: 11px;
+	left:72.8%; /*1095px;*/
+	bottom:90px;
+}
+#build{
+	position: relative;
+	left: 0.8%; /*10px;*/
+}
+#workBackground{
+	width:70%;
+	height: 200px;
+	margin: auto;
+	margin-top:-30px;
+	background-color: white;
+	
+}
+#workExperience{
+	width:90%;
+	height:700px;
+	margin: auto;
+	background-color: rgba(206, 221, 227, 1);
+}
+
+#ise{
+	float:left;
+	text-align: center;
+	width: 28%; /*380px;*/
+	padding-left: 1.5%; /*20px;*/
+	padding-top: 80px;
+}
+#ise ul li{
+	text-align: justify;
+    text-justify: inter-word;
+    padding-left: 1.93%; /*25px;*/
+    padding-top: 10px;
+    font-size: 15px;
+}
+#tma ul li{
+	text-align: justify;
+    text-justify: inter-word;
+    padding-left: 1.93%; /*25px;*/
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+#ga ul li{
+	text-align: justify;
+    text-justify: inter-word;
+    padding-left: 1.93%; /*25px;*/
+    padding-top: 10px;
+    font-size: 15px;
+}
+h3{
+	font-size: 
+}
+
+#line{
+	margin-top: 100px;
+	float: left;
+	height:400px;
+	border-left: 2px solid white;
+	margin-left: 3.7%; /*50px;*/
+}
+#tma{
+	width: 28%; /*380px;*/
+	text-align: center;
+	float:left;
+	padding-left: 1.5%; /*20px;*/
+	padding-right: 0.7%; /*10px;*/
+	padding-top: 80px; 
+}
+
+#tma h3{
+	padding-top: 25px;
+}
+
+#line1{
+	margin-top: 100px;
+	margin-left: 2.4%; /*30px;*/
+	height:400px;
+	float: left;
+	border-left: 2px solid white;
+}
+
+#ga{
+	float:left;
+	text-align: center;
+	padding-left: 2.2%; /*30px;*/
+	padding-top: 80px; 
+	width:28%; /*380px;*/
+}
+#ga h3{
+	padding-top: 25px;
+}
+
+#resumeView{
+	position: relative;
+	bottom:130px;
+	clear:both;
+	text-align: center;
+	border-bottom: 2px solid white;
+	margin-left: 18%; /*250px;*/
+	margin-right: 18%; /*250px;*/
+}
+#resumeLink{
+	position: relative;
+	text-align: center;
+	bottom:100px;
+}
+
+
+#downArrow{
+	text-align: center;
+	clear:both;
+	margin-bottom: 60px;
+
+}
+#downArrow img{
+	width: 40px;
+	margin-top: 100px;
+	background-color: white;
+	padding: 20px 50px 20px 50px;
+	border-radius: 5px;
+}
+#skills{
+	position: absolute;
+	margin-left: 4.2%; /*65px;*/
+	text-align: center;
+	width:90%;
+	height:240px;
+	background-color:  rgba(206, 221, 227, 1);
+	padding-top: 50px;
+}
+#skillsHeader{
+	margin-left: 80px;
+	font-size: 24px;
+	font-style: italic;
+	font-weight: 400;
+	margin-bottom: 50px;
+	color:black;
+}
+footer{
+	margin-bottom: 80px;
+}
+#html{
+	height:100px;
+	width: 7.5%; /*100px;*/
+	border-radius: 50px;
+	background-color: white;
+	float: left;
+	margin-top: 50px;
+	margin-left: 8.1%; /*105px;*/
+	position: relative;
+}
+#css{
+	height:100px;
+	width:7.4%; /*100px;*/
+	border-radius: 50px;
+	background-color: white;
+	float: left;
+	margin-top: 50px;
+	margin-left: 2%; /*30px;*/
+	position: relative;
+}
+#photoS{
+	height:100px;
+	width:7.5%; /*100px;*/
+	border-radius: 50px;
+	background-color: white;
+	float: left;
+	margin-top: 50px;
+	margin-left: 2.2%; /*30px;*/
+	position: relative;
+}
+#inD{
+	height:100px;
+	width: 7.5%; /*100px;*/
+	border-radius: 50px;
+	background-color: white;
+	float: left;
+	margin-top: 50px;
+	margin-left: 2%; /*30px;*/
+	position: relative;
+}
+#excel{
+	height:100px;
+	width:7.5%; /*100px;*/
+	border-radius: 50px;
+	background-color: white;
+	float: left;
+	margin-top: 50px;
+	margin-left: 2.1%; /*30px;*/
+	position: relative;
+}
+#sublime{
+	height:100px;
+	width:7.5%; /*100px;*/
+	border-radius: 50px;
+	background-color: white;
+	float: left;
+	margin-top: 50px;
+	margin-left: 2%; /*30px;*/
+	position: relative;
+}
+#powerP{
+	height:100px;
+	width: 7.5%; /*100px;*/
+	border-radius: 50px;
+	background-color: white;
+	float: left;
+	margin-top: 50px;
+	margin-left: 2.1%; /*30px;*/
+	position: relative;
+}
+#conxport{
+	height:100px;
+	width: 7.5%; /*100px;*/
+	border-radius: 50px;
+	background-color: white;
+	float: left;
+	margin-top: 50px;
+	margin-left: 2%; /*30px;*/
+	position: relative;
+}
+#myEmma{
+	height:100px;
+	width: 7.5%; /*100px;*/
+	border-radius: 50px;
+	background-color: white;
+	float: left;
+	margin-top: 50px;
+	margin-left: 2%; /*30px;*/
+	position: relative;
+}
+#skills{
+	margin-bottom: 100px;
+}
+#skills ul{
+	clear: both;
+}
+#skills ul li{
+	display: inline-block;
+	
+}
+#skills img{
+	width: 50px;
+	clear:both;
+}
+#html1{
+	position: relative;
+	bottom:82px;
+	right: 323px;
+}
+#css1{
+	position: relative;
+	bottom:82px;
+	right:248px;
+}
+
+#photoS1{
+	position: relative;
+	bottom: 82px;
+	right:172px;
+}
+#inD1{
+	position: relative;
+	bottom: 82px;
+	right:95px;
+}
+#excel1{
+	position: relative;
+	bottom: 82px;
+	right:20px;
+}
+#powerP1{
+	position: relative;
+	bottom: 82px;
+	left:55px;
+}
+#sublime1{
+	position: relative;
+	bottom: 82px;
+	left:132px;
+}
+#conxport1{
+	position: relative;
+	bottom: 82px;
+	left:210px;
+}
+#myEmma1{
+	position: relative;
+	bottom: 82px;
+	left:285px;
+}
+a{
+	color:white;
+	text-decoration: none;
+}
+.hidden{
+	opacity: 0;
+}
+.visible{
+	opacity: 1;
+}
+@media screen and (max-width: 1180px){
+	#tma ul li{
+		font-size: 12px;
+	}
+	#ise ul li{
+		font-size: 12px;
+	}
+	#ga ul li{
+		font-size: 12px;
+	}
+	h1{
+		font-size: 18px;
+	}
+	#ise h3{
+		font-size: 14px;
+	}
+	#tma h3{
+		font-size: 14px;
+	}
+
+	#ga h3{
+		font-size: 14px;
+	}
+
+}
+@media screen and (max-width: 800px){
+	#tma ul li{
+		font-size: 10px;
+	}
+	#ise ul li{
+		font-size: 10px;
+	}
+	#ga ul li{
+		font-size: 10px;
+	}
+	h1{
+		font-size: 14px;
+	}
+	#ise h3{
+		font-size: 12px;
+	}
+	#tma h3{
+		font-size: 12px;
+	}
+
+	#ga h3{
+		font-size: 12px;
+	}	
+
+}

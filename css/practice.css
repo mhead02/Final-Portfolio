@@ -1,0 +1,38 @@
+body{
+  font-family:Comfortaa;
+
+}
+header img{
+  width: 70px;
+  /* margin-left:1430px; */
+  margin-top: 15px;
+  margin-left: 0.77220077%; /* 10px; */
+}
+.sideNav{
+  margin-top: 100px;
+  margin-left: 10px;
+  height:350px;
+  width: 250px; /* 0 width - change this with JavaScript */
+  background-color: black;
+  display: none;
+  position: fixed;
+}
+.sideNav a:hover, .navBar a:focus{
+  color: blue;
+}
+
+.navBar{
+  display:block;
+  padding-top: 40px;
+  font-size: 20px;
+}
+li a{
+  color:white;
+  text-decoration: none;
+}
+.carousel-inner{
+  margin-top: 100px;
+}
+.item{
+  height:500px;
+}

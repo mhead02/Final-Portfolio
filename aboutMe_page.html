@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Me</title>
+	<link rel="stylesheet" type="text/css" href="css/aboutMe_page.css">
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+</head>
+<body>
+<div class="container">
+<nav class="sideNav">
+	<ul>
+		<li class="navBar"><strong><a href="mainPage.html">Home</a></strong></li>
+		<li class="navBar"><strong><a href="aboutMe_page.html">About Me</a></strong></li>
+		<li class="navBar"><a href="experiencePage.html">Experience</a></li>
+		<li class="navBar"><a href="contactPage.html">Contact Me</a></li>
+	</ul>
+</nav>
+<header>
+	<span>
+		<img id="controlNav" src="images/M_logo.jpg">
+	</span> 
+	<span id="aboutMe"> about me </span>
+</header>
+<div id="denverPic">
+	<img class="animated pulse" id="denver" src="images/denver.png">
+</div>
+<div id= "allInfo">
+	<div id="aboutInfo">
+		<h3>Want to know a bit about me?</h3> 
+			<p>Born and raised in Evanston, IL, I called Chicago my home for a few years after college before heading to the beautiful Denver, CO.  <br><br> Three words that describe me best:</p> <span id="threeWords">Scrappy. Curious. Positive.</span>
+	</div>
+	<div id="hikingPic">
+		<img id="hiking" src="images/bean.png">
+	</div>
+	<div id="line1">
+	</div>
+	<div class="post" id="interests">
+		<h3><span id="marketer">Just a few of my favorite things...</span></h3>
+		<p> I have always been a sports nut. Whether playing, watching or reading about it, sports have always been a part of my life. The discipline, passion and teamwork aspects of sports are forever in my blood.</p>
+		<p>Outside of work and sports, I enjoy traveling, hiking to any beautiful destination, reading historical fiction, petting every pup out there, and saying yes to new and exciting adventures.</p>
+	</div>
+	<div id="line2">
+	</div>
+	<div>
+		<img class="post" id="chicago" src="images/hiking.png">
+	</div>
+	<div class="post" id="workDone">
+		<h3><span id="marketer">I'm a Marketer</span></h3>
+		<p>Connecting brands with ideal platforms since 2013. A list of brands, clients, and marketing platforms include but are not limited to:</p>
+		<ul>
+			<li>AT&T</li>
+			<li>USC Athletics</li>
+			<li>SeaWorld Parks & Entertainment</li>
+			<li>SXSW</li>
+			<li>Denver Nuggets</li>
+			<li>Boston Marathon</li>
+			<li>Pittsburgh Steelers</li>
+			<li>Orlando City Soccer Club</li>
+			<li>Ohio State</li>
+			<li>iWireless Center</li>
+		</ul>
+	</div>
+	<div>
+		<img class="post" id="marketing" src="images/marketing.png">
+	</div>
+	<div id="line3">
+	</div>
+</div>
+<div id= "downArrow">
+	<img class="post" src="images/downArrow.png">
+</div>
+<br><br><br><br><br>
+<h2 id="edTitle">Education</h2>
+<div id="allEducation">
+	<div id="schoolCircles">
+			<div class="post" id="gaSchool"></div>
+			<div class="post" id="butlerSchool"></div>
+			<div class="post" id="uabSchool"></div>
+	</div>	
+		
+			<div class="post" id="ga">
+				<div class="school_ga">
+					<br>
+					<div>General Assembly</div>
+					<div>FEWD</div>
+					<div>2017</div>
+					<div>Denver, CO</div>
+				</div>
+				<img  class="photos" src="images/ga_photo.png">
+			</div>
+			<div class="post" id="butler">
+				<div class="school_butler">
+					<br>
+					<div>Butler University</div>
+					<div>PR, Advertising, Marketing</div>
+					<div>2013</div>
+					<div>Indianapolis, IN</div>
+				</div>
+				<img class="photos" src="images/butler.jpg">
+			</div>
+			<div class="post" id="uab">
+				<div class="school_uab">
+					<br>
+					<div>Universitat Autonoma de Barcelona</div>
+					<div>International Business</div>
+					<div>2012</div>
+					<div>Barcelona, Spain</div>
+				</div>
+				<img class="photos" src="images/uab.png">
+			</div>
+		
+	</div>
+<br>
+<br>
+<br>
+<br>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+<script src="assets/viewportchecker.js"></script> 
+<script type="text/javascript">
+jQuery(document).ready(function() {
+	jQuery('.post').addClass("hidden").viewportChecker({
+	    classToAdd: 'visible animated fadeIn', // Class to add to the elements when they are visible
+	    offset: 100    
+	   });   
+});            
+</script>
+</body>
+<script src="js/aboutMe_page.js"></script>
+</html>
